@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Simple Couter Project</title>
+</head>
+
+<body>
+    <!-- JavaScript Simple Couter Project Start Here -->
+
+    <!-- Html Code Start Here -->
+    <!-- This is heading text -->
+    <h1 style="text-align:center; font-size:40px;color: blueviolet;">Button Click With</h1>
+    <!-- This is Counter text -->
+    <h3 id="counter" style="text-align:center; font-size:35px;color: green;">0</h3>
+    <!-- Html Code End Here -->
+
+    <!-- JS Code Start Here -->
+    <script>
+        const setCounter = document.querySelector("#counter");
+        let count = 0;
+        setInterval(() => {
+            if (count < 500) {
+                count++;
+                setCounter.innerHTML = count;
+            }
+        }, 1);
+    </script>
+    <!-- JS Code End Here -->
+    <!-- JavaScript Simple Couter Project End Here -->
+</body>
+
+</html>
