@@ -1,0 +1,2 @@
+# full.counter.js
+JS
